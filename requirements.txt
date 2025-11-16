@@ -1,0 +1,17 @@
+# TCM Guided Python Security Projects - Dependencies
+# Install with: pip3 install -r requirements.txt
+
+# HTTP requests library for web-based tools
+requests>=2.31.0
+
+# SSH client library for SSH brute forcing
+paramiko>=3.3.1
+
+# Binary exploitation framework
+pwntools>=4.11.0
+
+# Optional but recommended for enhanced functionality
+# Uncomment if needed:
+
+# colorama>=0.4.6  # Cross-platform colored terminal text
+# tqdm>=4.66.1     # Progress bars
