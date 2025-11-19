@@ -1,8 +1,38 @@
 # TCM Guided Python Security Projects
 
+**<a href="README.md">🇬🇧 English</a>** | **<a href="README.ru.md">🇷🇺 Русский</a>**
+
+[![Security Audit](https://img.shields.io/badge/security-audited-green.svg)](SECURITY_AUDIT_ISSUES.md)
+[![Code Quality](https://img.shields.io/badge/code%20quality-PEP%208-blue.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![Python Version](https://img.shields.io/badge/python-3.7%2B-brightgreen.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-Educational-orange.svg)](LICENSE)
+
+**Production-ready** | **Educational** | **PEP 8 Compliant** | **Security-First**
+
 A collection of Python security tools and scripts for educational purposes and authorized penetration testing.
 
-[Русская версия](README.ru.md) | [Detailed Manual](MANUAL.md)
+[Detailed Manual](MANUAL.md) | [Русское руководство](MANUAL.ru.md)
+
+---
+
+## 🎯 Professional Security Testing & Infrastructure Services
+
+Looking for **production-grade security infrastructure** or **professional DevOps & pentesting assistance**?
+
+**[run-as-daemon.ru](https://run-as-daemon.ru)** — Professional DevOps, System Administration & Security Services
+
+**Services:**
+- 🔒 **Security Testing**: Authorized penetration testing, vulnerability assessments
+- 🏗️ **Production Infrastructure**: Docker, Kubernetes, Nomad orchestration
+- 🛡️ **Security-First Architecture**: "Defense by design. Speed by default"
+- 🔧 **System Administration**: Linux/Windows server management, automation
+- 🌐 **Network Security**: VPN solutions, firewall configuration, network hardening
+- 🚀 **DevOps & Automation**: CI/CD pipelines, deployment automation
+- ⚡ **High-Load Systems**: Performance optimization, scalability solutions
+
+**Contact:** [run-as-daemon.ru](https://run-as-daemon.ru)
+
+---
 
 ## ⚠️ Legal Disclaimer
 
@@ -207,6 +237,25 @@ See [SECURITY_AUDIT_ISSUES.md](SECURITY_AUDIT_ISSUES.md) for detailed audit repo
 
 ---
 
+## 🏗️ Production Deployment
+
+**Need production-grade security infrastructure?**
+
+These educational tools demonstrate security concepts, but **production environments require professional hardening**.
+
+For production deployments:
+- **Authorized penetration testing** of your infrastructure
+- **Security architecture design** from the ground up
+- **Infrastructure orchestration** (Docker, Kubernetes, Nomad)
+- **Server hardening** and security configuration
+- **High-availability** and load-balanced systems
+
+See a production example: [SMM Bot](https://github.com/ranas-mukminov/smm_bot) - A professionally deployed Telegram bot with enterprise-grade infrastructure.
+
+**Professional assistance:** [run-as-daemon.ru](https://run-as-daemon.ru)
+
+---
+
 ## 📚 Documentation
 
 - **[Detailed Manual](MANUAL.md)**: Complete usage guide with examples
@@ -222,6 +271,86 @@ Contributions are welcome! Please ensure:
 2. All functions have docstrings
 3. Security warnings are included where appropriate
 4. Tools remain educational in nature
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
+
+---
+
+## 👨‍💻 Author & Professional Services
+
+**Ranas Mukminov** — DevOps Engineer, Security Researcher & System Administrator
+
+Based in Innopolis, Tatarstan, Russia. Specializing in security infrastructure, professional pentesting, and production-grade DevOps solutions.
+
+### 🔒 Security & Penetration Testing
+- Authorized penetration testing and vulnerability assessments
+- Security audits for web applications and infrastructure
+- Exploit development and security research
+- CTF competitions and security training
+
+### 🏗️ Infrastructure & Orchestration
+- Docker, Kubernetes, Nomad container orchestration
+- Multi-server architecture design and implementation
+- Load balancing and high-availability systems
+- Geographic distribution and failover configuration
+
+### 🛡️ Security & Server Hardening
+- Linux/Windows server security hardening
+- Firewall configuration (iptables, fail2ban)
+- VPN solutions (WireGuard, OpenVPN, SSH tunnels)
+- Security monitoring and intrusion detection
+
+### 🔧 System Administration
+- Linux (Ubuntu, Debian) and Windows Server administration
+- Database management (PostgreSQL, MySQL, Redis)
+- Backup and disaster recovery systems
+- Performance optimization and troubleshooting
+
+### 🌐 Network Security
+- Network topology design and implementation
+- OpenWRT router configuration
+- Secure networking and segmentation
+- VPN and tunnel management
+
+### 🚀 Automation & DevOps
+- CI/CD pipeline design and implementation
+- Infrastructure as Code (IaC)
+- Automated deployment and monitoring
+- Git workflow and version control
+
+### ⚡ High-Load Systems
+- Performance optimization and caching (Redis)
+- Load balancing and reverse proxy (Nginx, Traefik)
+- Scalability planning and implementation
+- Multi-region deployment strategies
+
+### 📞 Professional Services Contact
+
+- **Website:** [run-as-daemon.ru](https://run-as-daemon.ru)
+- **Location:** Innopolis, Tatarstan, Russia
+- **Status:** Individual Entrepreneur (ИП)
+- **GitHub:** [@ranas-mukminov](https://github.com/ranas-mukminov)
+
+---
+
+## 💼 Professional Support
+
+For production deployments, security audits, or infrastructure consulting:
+- **Professional pentesting** and security assessments
+- **Infrastructure design** and implementation
+- **24/7 monitoring** and support available
+- **SLA-backed services** for mission-critical systems
+
+Contact: [run-as-daemon.ru](https://run-as-daemon.ru)
+
+---
+
+## 🌟 Community Support
+
+For educational questions and community support:
+- Open an [Issue](https://github.com/ranas-mukminov/tcm-guided-pyprojects/issues)
+- Contribute via [Pull Requests](https://github.com/ranas-mukminov/tcm-guided-pyprojects/pulls)
+- Follow the [Code of Conduct](CODE_OF_CONDUCT.md)
 
 ---
 
@@ -240,16 +369,9 @@ This project is intended for educational purposes. Use responsibly and only on s
 
 ---
 
-## 👨‍💻 Author
-
-**TCM Security Training Projects**
-
-For issues or questions, please open an issue on GitHub.
-
----
-
 ## 🔗 Related Projects
 
+- [SMM Bot](https://github.com/ranas-mukminov/smm_bot) — Production-grade Telegram bot (professional deployment reference)
 - [TCM Security Academy](https://academy.tcm-sec.com/)
 - [Python for Pentesters](https://github.com/topics/python-pentesting)
 - [Awesome Penetration Testing](https://github.com/enaqx/awesome-pentest)
@@ -257,3 +379,5 @@ For issues or questions, please open an issue on GitHub.
 ---
 
 **Remember**: Always practice ethical hacking. Only test systems you have permission to assess.
+
+**Production infrastructure and professional security testing:** [run-as-daemon.ru](https://run-as-daemon.ru)

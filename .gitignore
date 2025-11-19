@@ -1,24 +1,93 @@
-# Security scan reports (regenerate as needed)
-audit_report.json
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+
+# Distribution / packaging
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # Virtual environments
 venv/
 env/
 ENV/
+.venv
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+*.cover
+*.log
+
+# Security - DO NOT commit
+*.pem
+*.key
+*.cert
+*.crt
+.env
+.env.local
+.env.*.local
+secrets/
+wordlists/*.txt
+!wordlists/.gitkeep
+credentials.json
+config.ini
+.ssh/
 
 # OS
 .DS_Store
 Thumbs.db
+*.bak
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Security scan reports (regenerate as needed)
+audit_report.json
+bandit_report.txt
+security_scan.json
+
+# Project specific
+rockyou.txt
+ssh-common-passwords.txt
+top-100.txt
+passwords.txt
+hashes.txt
+
